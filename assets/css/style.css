@@ -33,6 +33,17 @@ img {
   max-width: 100%;
 }
 
+.section-spacing {
+  padding-top: 100px;
+}
+
+.section-title h2 {
+  font-size: 38px;
+  font-weight: 500;
+  text-align: center;
+  color: #122c60;
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1240px;
@@ -268,3 +279,267 @@ nav.navbar {
 /* Hero Section CSS End */
 
 /* Header Part CSS End */
+
+/* Main Part CSS Start */
+
+/* Featured Section CSS Start */
+
+.featured-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0 80px;
+}
+
+.featured-card img {
+  max-width: 90%;
+  margin: auto;
+}
+
+/* Featured Section CSS End */
+
+/* Record Section CSS Start */
+
+.record-wrapper {
+  padding: 60px 0;
+  background: #fef2f4;
+}
+
+.record-img {
+  background: #f38e74;
+  padding: 20px;
+  border-radius: 22px;
+}
+
+.record-img img {
+  width: 100%;
+  min-height: 470px;
+  max-height: 470px;
+  height: 100%;
+  object-fit: cover;
+  background: #ffffff;
+  border-radius: 22px;
+}
+
+.record-tag span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #fa5267;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.record-content h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #111111;
+  padding: 25px 0 10px;
+}
+
+.record-content p {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #6f6f6f;
+}
+
+/* Record Section CSS End */
+
+/* Magic Section CSS Start */
+
+.magic-wrapper {
+  background: #fffbe5;
+  padding: 60px 0;
+}
+
+.magic-img {
+  background: #fbd20c;
+  padding: 20px;
+  border-radius: 22px;
+}
+
+.magic-img img {
+  width: 100%;
+  min-height: 470px;
+  max-height: 470px;
+  height: 100%;
+  object-fit: cover;
+  background: #ffffff;
+  border-radius: 22px;
+}
+
+.magic-tag span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1d1d1d;
+  background: #fbd20c;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.magic-content h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #111111;
+  padding: 25px 0 10px;
+}
+
+.magic-content p {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #6f6f6f;
+}
+
+/* Magic Section CSS End */
+
+/* Customize Section CSS Start */
+
+.customize-wrapper {
+  background: #ecffff;
+  padding: 60px 0;
+}
+
+.customize-img {
+  background: #35d3d3;
+  padding: 20px;
+  border-radius: 22px;
+}
+
+.customize-img img {
+  width: 100%;
+  min-height: 470px;
+  max-height: 470px;
+  height: 100%;
+  object-fit: cover;
+  background: #ffffff;
+  border-radius: 22px;
+}
+
+.customize-tag span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #35d3d3;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.customize-content h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #111111;
+  padding: 25px 0 10px;
+}
+
+.customize-content p {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #6f6f6f;
+}
+
+/* Customize Section CSS End */
+
+/* Works Section CSS Start */
+
+.work-thumbnail {
+  margin-top: 80px;
+}
+
+.work-thumbnail::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+}
+
+.work-thumbnail > img {
+  width: 100%;
+  min-height: 600px;
+  max-height: 600px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+/* Works Section CSS End */
+
+/* Form Section CSS Start */
+
+.form-content h2 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 55px;
+  color: #122c60;
+  margin-bottom: 50px;
+}
+
+.form-btn a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #122c60;
+  padding: 12px 18px !important;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+/* Form Section CSS End */
+
+/* Main Part CSS End */
+
+/* Footer Section CSS Start */
+
+.footer-wrapper {
+  padding-bottom: 60px;
+}
+
+.footer-info h4 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  color: #111111;
+  margin-bottom: 30px;
+}
+
+.footer-images img {
+  max-width: 20%;
+  width: 100%;
+  padding-right: 40px;
+}
+
+.footer-images2 img {
+  padding-right: 40px;
+}
+
+.footer-menu h4 {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #111111;
+  padding-bottom: 10px;
+}
+
+.footer-nav li {
+  padding-bottom: 10px;
+}
+
+.footer-nav li a {
+  font-size: 16px;
+  color: #929292;
+}
+
+/* Footer Section CSS End */

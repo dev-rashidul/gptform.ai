@@ -11,7 +11,8 @@
 /* Min Width 991px and Max Width 1199px */
 
 @media (min-width: 991px) and (max-width: 1199px) {
-  .hero-content h2 {
+  .hero-content h2,
+  .section-title h2 {
     font-size: 45px;
     line-height: 60px;
   }
@@ -25,7 +26,8 @@
 /* Min Width 768px and Max Width 991px */
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .hero-content h2 {
+  .hero-content h2,
+  .section-title h2 {
     font-size: 36px;
     line-height: 45px;
   }
@@ -47,6 +49,44 @@
     padding-right: 2rem;
     display: grid;
   }
+
+  .record-content h2,
+  .magic-content h2,
+  .customize-content h2 {
+    font-size: 30px;
+  }
+
+  .record-content p,
+  .magic-content p,
+  .customize-content p {
+    font-size: 18px;
+  }
+
+  .record-img img,
+  .magic-img img,
+  .customize-img img {
+    width: 100%;
+    min-height: 250px;
+    max-height: 250px;
+    height: 100%;
+    object-fit: initial;
+  }
+
+  .work-thumbnail > img {
+    width: 100%;
+    min-height: 400px;
+    max-height: 400px;
+    object-fit: cover;
+  }
+
+  .form-content h2 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .footer-images img {
+    max-width: 25%;
+  }
 }
 
 /* Min Width 300px and Max Width 767px */
@@ -61,7 +101,8 @@
     margin-top: 60px;
   }
 
-  .hero-content h2 {
+  .hero-content h2,
+  .section-title h2 {
     font-size: 30px;
     line-height: 36px;
   }
@@ -84,5 +125,63 @@
 
   .service-card h5 {
     font-size: 15px;
+  }
+
+  .featured-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 0 80px;
+  }
+
+  .featured-card {
+    padding-top: 20px;
+  }
+
+  .record-content h2,
+  .magic-content h2,
+  .customize-content h2 {
+    font-size: 25px;
+  }
+
+  .record-content p,
+  .magic-content p,
+  .customize-content p {
+    font-size: 16px;
+  }
+
+  .record-img img,
+  .magic-img img,
+  .customize-img img {
+    width: 100%;
+    min-height: 250px;
+    max-height: 250px;
+    height: 100%;
+    object-fit: initial;
+  }
+
+  .work-thumbnail > img {
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+  .form-content h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .footer-info h4 {
+    font-size: 24px;
+  }
+
+  .footer-images img {
+    max-width: 30%;
+    margin-right: -20px !important;
+  }
+
+  .footer-images2 img {
+    max-width: 70%;
+    margin-right: -20px !important;
   }
 }
