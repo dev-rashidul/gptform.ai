@@ -607,6 +607,7 @@ Landing Page CSS
   line-height: 36px;
   color: #e45200;
   padding-bottom: 40px;
+  text-align: center;
 }
 
 .landing-hero-img-text h3 {
@@ -616,7 +617,7 @@ Landing Page CSS
 .fisrt-quote-icon {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 10px;
 }
 
 .down-arrow {
@@ -765,6 +766,18 @@ Landing Page CSS
 
 .users-wrapper {
   padding-bottom: 60px;
+}
+
+.users-slider {
+  padding-top: 60px;
+}
+
+.owl-stage-outer {
+  padding-top: 30px;
+}
+
+.owl-dots.disabled {
+  display: block !important;
 }
 
 .user-card-title {
